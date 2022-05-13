@@ -9,7 +9,7 @@ const transport = nodemailer_1.default.createTransport({
     host: "https://ciclone.dvinesweb.com.br",
     port: 465,
     auth: {
-        user: "feedback",
+        user: "feedback@budaweb.com.br",
         pass: "key!feedback"
     }
 });
