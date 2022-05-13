@@ -6,11 +6,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.NodemailerMailAdapter = void 0;
 const nodemailer_1 = __importDefault(require("nodemailer"));
 const transport = nodemailer_1.default.createTransport({
-    host: "ciclone.dvinesweb.com.br",
+    host: "https://ciclone.dvinesweb.com.br",
     port: 465,
     auth: {
-        user: "budaweb",
-        pass: "key!budaweb"
+        user: "feedback",
+        pass: "key!feedback"
     }
 });
 class NodemailerMailAdapter {

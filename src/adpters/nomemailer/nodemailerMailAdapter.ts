@@ -2,11 +2,11 @@ import { MailAdapter, SendMailData } from "../mailAdapter";
 import nodemailer from 'nodemailer';
 
 const transport = nodemailer.createTransport({
-     host: "ciclone.dvinesweb.com.br",
+     host: "https://ciclone.dvinesweb.com.br",
      port: 465,
      auth: {
-       user: "budaweb",
-       pass: "key!budaweb"
+       user: "feedback",
+       pass: "key!feeedback"
      }
  });
 
