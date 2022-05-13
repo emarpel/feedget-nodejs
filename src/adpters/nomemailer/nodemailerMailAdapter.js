@@ -6,11 +6,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.NodemailerMailAdapter = void 0;
 const nodemailer_1 = __importDefault(require("nodemailer"));
 const transport = nodemailer_1.default.createTransport({
-    host: "https://ciclone.dvinesweb.com.br",
-    port: 465,
+    host: "smtp.mailtrap.io",
+    port: 2525,
     auth: {
-        user: "feedback@budaweb.com.br",
-        pass: "key!feedback"
+        user: "636d2fa8c1b278",
+        pass: "7e548f0c98463a"
     }
 });
 class NodemailerMailAdapter {

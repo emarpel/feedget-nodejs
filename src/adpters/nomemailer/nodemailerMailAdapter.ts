@@ -2,11 +2,11 @@ import { MailAdapter, SendMailData } from "../mailAdapter";
 import nodemailer from 'nodemailer';
 
 const transport = nodemailer.createTransport({
-     host: "https://ciclone.dvinesweb.com.br",
-     port: 465,
+     host: "smtp.mailtrap.io",
+     port: 2525,
      auth: {
-       user: "feedback@budaweb.com.br",
-       pass: "key!feeedback"
+     user: "636d2fa8c1b278",
+     pass: "7e548f0c98463a"
      }
  });
 
