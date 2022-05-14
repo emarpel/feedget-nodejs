@@ -6,7 +6,7 @@ const transport = nodemailer.createTransport({
      port: 465,
      secure: true,
      auth: {
-          user: "feedback@budaweb.com.br	",
+          user: "feedback@budaweb.com.br",
           pass: "key!feedback"
      }
  });
