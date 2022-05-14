@@ -6,13 +6,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.NodemailerMailAdapter = void 0;
 const nodemailer_1 = __importDefault(require("nodemailer"));
 const transport = nodemailer_1.default.createTransport({
-    host: "smtp.gmail.com",
-    service: "gmail",
+    host: "ciclone.dvinesweb.com.br",
     port: 465,
     secure: true,
     auth: {
-        user: "emarpel@gmail.com",
-        pass: "Bud@3105"
+        user: "feedback@budaweb.com.br	",
+        pass: "key!feedback"
     }
 });
 class NodemailerMailAdapter {

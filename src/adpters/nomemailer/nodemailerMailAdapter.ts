@@ -2,13 +2,12 @@ import { MailAdapter, SendMailData } from "../mailAdapter";
 import nodemailer from 'nodemailer';
 
 const transport = nodemailer.createTransport({
-     host: "smtp.gmail.com",
-     service: "gmail",
+     host: "ciclone.dvinesweb.com.br",
      port: 465,
      secure: true,
      auth: {
-          user: "emarpel@gmail.com",
-          pass: "Bud@3105"
+          user: "feedback@budaweb.com.br	",
+          pass: "key!feedback"
      }
  });
 
